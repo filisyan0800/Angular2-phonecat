@@ -1,0 +1,52 @@
+{
+  "name": "angular2-phonecat",
+  "version": "1.0.0",
+  "description": "Angular port of the original AngularJS Phonecat application with Webpack",
+  "main": "src/app/main.js",
+  "scripts": {
+    "postinstall": "ngx-install",
+    "build": "ngx-build",
+    "deploy": "ngx-deploy",
+    "lint": "ngx-lint",
+    "start": "ngx-start",
+    "start-prod": "http-server ./dist -p 4000",
+    "test": "ngx-test",
+    "test-watch": "ngx-test --watch"
+  },
+  "author": {
+    "name": "liuqing",
+    "email": "tarasabcdef@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuqing0800/Angular2-phonecat"
+  },
+  "license": "MIT",
+  "keywords": [
+    "angular2",
+    "typescript",
+    "webpack"
+  ],
+  "dependencies": {
+    "@angular/animations": "4.3.3",
+    "@angular/common": "4.3.3",
+    "@angular/compiler": "4.3.3",
+    "@angular/compiler-cli": "4.3.3",
+    "@angular/core": "4.3.3",
+    "@angular/forms": "4.3.3",
+    "@angular/http": "4.3.3",
+    "@angular/platform-browser": "4.3.3",
+    "@angular/platform-browser-dynamic": "4.3.3",
+    "@angular/platform-server": "4.3.3",
+    "@angular/router": "4.3.3",
+    "bootstrap": "3.3.7",
+    "core-js": "2.5.0",
+    "font-awesome": "4.7.0",
+    "rxjs": "5.4.2",
+    "zone.js": "0.8.16"
+  },
+  "devDependencies": {
+    "@ngx-webpack/cli": "0.0.10",
+    "http-server": "0.10.0"
+  }
+}
