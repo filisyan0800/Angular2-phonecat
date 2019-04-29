@@ -43,7 +43,7 @@
     "core-js": "2.5.0",
     "font-awesome": "4.7.0",
     "rxjs": "5.4.2",
-    "zone.js": "0.8.16"
+    "zone.js": "0.8.16",
   },
   "devDependencies": {
     "@ngx-webpack/cli": "0.0.10",
